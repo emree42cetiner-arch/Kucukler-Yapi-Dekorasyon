@@ -989,7 +989,7 @@ export const allServices: ServiceSummary[] = [
     shortTitle: "Alçıpan & Asma Tavan",
     icon: Square,
     excerpt: "Alçıpan bölme duvar, asma tavan ve dekoratif kartonpiyer uygulamaları.",
-    href: "/#hizmetler",
+    href: `${BASE}/alcipan-asma-tavan`,
   },
   {
     slug: "dis-cephe-boya",
@@ -997,7 +997,7 @@ export const allServices: ServiceSummary[] = [
     shortTitle: "Dış Cephe Boya",
     icon: PaintBucket,
     excerpt: "Silikonlu ve elastomerik dış cephe boyaları ile uzun ömürlü kaplama.",
-    href: "/#hizmetler",
+    href: `${BASE}/dis-cephe-boya`,
   },
   {
     slug: "zemin-kaplama",
@@ -1005,7 +1005,7 @@ export const allServices: ServiceSummary[] = [
     shortTitle: "Zemin Kaplama",
     icon: Building2,
     excerpt: "Laminat parke, seramik, vinil ve epoksi zemin kaplama uygulamaları.",
-    href: "/#hizmetler",
+    href: `${BASE}/zemin-kaplama`,
   },
 ];
 
