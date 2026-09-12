@@ -20,13 +20,18 @@ const ProjectGallery = () => {
             </h3>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
               {cat.images.map((img, ii) => (
-                <div key={ii} className="overflow-hidden group rounded-lg">
+                <div key={ii} className="relative overflow-hidden group rounded-lg">
                   <img
                     src={img.src}
                     alt={img.alt}
                     loading="lazy"
                     className="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
                   />
+                  <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/85 via-black/50 to-transparent px-3 py-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <p className="text-white text-xs md:text-sm font-medium leading-snug">
+                      {img.caption}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>

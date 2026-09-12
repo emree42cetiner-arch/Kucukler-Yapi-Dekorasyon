@@ -7,6 +7,42 @@ import blogSustainable from "@/assets/blog-sustainable.jpg";
 
 const blogPosts = [
   {
+    title: "Fatih ve Sarayağası Evlerinde Asma Tavan Çatlakları ve Gizli Işık Çökme Tehlikesi",
+    excerpt: "Asma tavan çatlamalarının gerçek nedeni, ince sac profil ve plastik dübel hileleri: 5 adımlı çelik iskeletli, lazer kotlu Q4 yüzey kalitesinde çatlamaz tavan protokolü.",
+    date: "12 Eylül 2026",
+    slug: "fatih-asma-tavan-catlaklari-gizli-isik"
+  },
+  {
+    title: "Fatih ve Sarayağası'nda Komple Ev Tadilatı ve Duvar Kırımı",
+    excerpt: "Taşıyıcı duvar ile bölme duvar arasındaki hayati fark, yığma ve karkas bina gerçeği, yasal mevzuat ve duvar yıkmadan önce uygulanan 4 adımlı statik keşif protokolü.",
+    date: "12 Eylül 2026",
+    slug: "fatih-komple-ev-tadilati-duvar-kirimi"
+  },
+  {
+    title: "Fatih ve Sarayağası'nda Banyo Tadilatı ve Kesin Çözümlü Su Yalıtımı",
+    excerpt: "Alt kata hiçbir damla su sızdırmayan banyo için 6 adımlı 'Sıfır Kaçak' protokolü: tam kırım, pah bandı, çift komponentli elastik izolasyon ve C2TE S1 esnek yapıştırıcı.",
+    date: "12 Eylül 2026",
+    slug: "fatih-banyo-tadilati-su-yalitimi"
+  },
+  {
+    title: "Fatih ve Sarayağası'nda Eski Binaların Su Tesisatı (Demir Boru) Yenileme Protokolü",
+    excerpt: "40 yıllık demir boruların paslanması, ölümcül usta hataları (folyosuz boru, kılıfsız döşeme) ve 5 adımlı TS EN standartlı tesisat protokolü.",
+    date: "12 Eylül 2026",
+    slug: "fatih-su-tesisati-demir-boru-yenileme"
+  },
+  {
+    title: "Fatih'teki Eski ve Yığma Binalarda Isı Yalıtımı (Mantolama) Hataları",
+    excerpt: "Isı köprüleri, içten yalıtımda terleme tehlikesi ve yanlış strafor seçimi: eski ve yığma binalarda doğru yalıtımın 5 adımlı protokolü.",
+    date: "12 Eylül 2026",
+    slug: "fatih-yigma-binalarda-mantolama-hatalari"
+  },
+  {
+    title: "Fatih Sarayağası'nda Zemin ve Bodrum Kat Rutubet Çözümleri",
+    excerpt: "Kılcal nem, tuz kusması ve taşıyıcı sisteme zarar veren rutubete karşı kalıcı yalıtım protokolü: 6 adımda şeffaf çözüm rehberi.",
+    date: "12 Eylül 2026",
+    slug: "fatih-sarayagasi-rutubet-yalitim-cozumleri"
+  },
+  {
     image: blogBuilding,
     title: "İstanbul'da Komple Ev Tadilatı Ne Kadar Sürer?",
     excerpt: "Daire büyüklüğü, yıkım miktarı ve malzeme seçimlerinin tadilat süresine etkisi ve gerçekçi bir planlama rehberi.",
@@ -28,16 +64,6 @@ const blogPosts = [
     slug: "anahtar-teslim-tadilat-firma-secimi"
   }
 ];
-
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.15
-    }
-  }
-};
 
 const itemVariants: Variants = {
   hidden: { opacity: 0, y: 30 },
@@ -67,25 +93,25 @@ const BlogSection = () => {
           </p>
         </motion.div>
 
-        <motion.div
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-          variants={containerVariants}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
-        >
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {blogPosts.map((post, index) => (
-            <motion.article
+            <article
               key={index}
-              variants={itemVariants}
               className="group bg-background rounded-lg shadow-sm hover:shadow-xl overflow-hidden border border-border hover:border-accent/40 transition-all duration-300"
             >
               <div className="overflow-hidden">
-                <img
-                  src={post.image}
-                  alt={post.title}
-                  className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
-                />
+                {post.image ? (
+                  <img
+                    src={post.image}
+                    alt={post.title}
+                    className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                ) : (
+                  <div className="w-full h-56 bg-gradient-to-br from-navy-dark via-navy to-anthracite relative">
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_30%,rgba(212,84,38,0.25),transparent_50%)]" />
+                    <div className="absolute inset-0 bg-[radial-gradient(circle_at_80%_70%,rgba(255,255,255,0.08),transparent_50%)]" />
+                  </div>
+                )}
               </div>
               <div className="p-6">
                 <span className="text-xs text-muted-foreground uppercase tracking-wide">
@@ -105,9 +131,9 @@ const BlogSection = () => {
                   <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform duration-200" />
                 </Link>
               </div>
-            </motion.article>
+            </article>
           ))}
-        </motion.div>
+        </div>
       </div>
     </section>
   );
