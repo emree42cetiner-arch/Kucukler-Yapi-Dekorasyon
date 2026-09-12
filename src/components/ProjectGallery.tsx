@@ -1,18 +1,4 @@
-import kitchenImage from "@/assets/kitchen.webp";
-import doorImage from "@/assets/door.webp";
-import windowImage from "@/assets/window.webp";
-import railingImage from "@/assets/railing.webp";
-import balconyImage from "@/assets/balcony.webp";
-import lightingImage from "@/assets/lighting.webp";
-
-const images = [
-  { src: kitchenImage, alt: "Profesyonel mutfak tadilat projesi" },
-  { src: doorImage, alt: "Kaliteli kapı ve giriş çalışması" },
-  { src: windowImage, alt: "Cam işleri ve pencereleme uygulaması" },
-  { src: railingImage, alt: "Korkuluk ve dekoratif metal işleri" },
-  { src: balconyImage, alt: "Balkon yenileme ve tasarımı" },
-  { src: lightingImage, alt: "Profesyonel aydınlatma kurulumu" },
-];
+import portfolio from "@/data/portfolioData";
 
 const ProjectGallery = () => {
   return (
@@ -27,18 +13,25 @@ const ProjectGallery = () => {
           </h2>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
-          {images.map((img, i) => (
-            <div key={i} className="overflow-hidden group rounded-lg">
-              <img
-                src={img.src}
-                alt={img.alt}
-                loading="lazy"
-                className="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
-              />
+        {portfolio.map((cat, ci) => (
+          <div key={ci} className="mb-10 last:mb-0">
+            <h3 className="text-xl font-bold text-foreground mb-4">
+              {cat.category}
+            </h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3 md:gap-4">
+              {cat.images.map((img, ii) => (
+                <div key={ii} className="overflow-hidden group rounded-lg">
+                  <img
+                    src={img.src}
+                    alt={img.alt}
+                    loading="lazy"
+                    className="w-full h-48 md:h-64 object-cover group-hover:scale-105 transition-transform duration-500"
+                  />
+                </div>
+              ))}
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
     </section>
   );
