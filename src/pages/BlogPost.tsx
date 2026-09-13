@@ -9,6 +9,7 @@ const blogPosts: Record<string, any> = {
   "fatih-asma-tavan-catlaklari-gizli-isik": {
     title: "Fatih ve Sarayağası Evlerinde Asma Tavan Çatlakları ve Gizli Işık Çökme Tehlikesi: Küçükler Yapı Dekorasyon Kusursuz Alçıpan Rehberi",
     date: "12 Eylül 2026",
+    image: "/images/blog/blog-asma-tavan-gizli-isik.jpg",
     content: `Fatih, Sarayağası veya Balat civarındaki yüksek tavanlı, eski tip evinizi yenilerken salonunuza modern bir hava katmak istediniz. Ustanız harika bir "gizli ışık bandı" ve asma tavan yaptı, spotlar takıldı, ev bir anda lüks bir otele benzedi. Ancak aradan sadece 3-4 ay geçtikten sonra, tavanın tam ortasında boydan boya uzanan o sinir bozucu kılcal çatlağı gördünüz. İşler daha da kötüye gitti; spotların etrafında dalgalanmalar başladı ve tavan yavaş yavaş aşağı doğru bel verdi (sarktı).
 
 Eğer bu senaryoyu yaşıyorsanız, yalnız değilsiniz. Fatih bölgesindeki yapı stoğunun dinamikleri, yeni yapılan sitelerdeki binalardan çok farklıdır. Bu yorgun binalara, sıradan "ezbere" yöntemlerle asma tavan yapmak, o tavanın ailenizin üzerine çökmesiyle sonuçlanabilecek ciddi bir güvenlik riski yaratır.
@@ -108,6 +109,7 @@ Yıllarca çatlamadan, esnemeden, ilk günkü pürüzsüzlüğünde kalacak tava
   "fatih-komple-ev-tadilati-duvar-kirimi": {
     title: "Fatih ve Sarayağası'nda Komple Ev Tadilatı ve Duvar Kırımı: Küçükler Yapı Dekorasyon Statik Güvenlik Rehberi",
     date: "12 Eylül 2026",
+    image: "/images/blog/blog-duvar-kirimi.jpg",
     content: `Fatih, Sarayağası, Karagümrük veya Balat civarında eski ve nostaljik bir daire satın aldığınızı ya da yıllardır oturduğunuz evi modernize etmek istediğinizi düşünün. Karanlık koridorlardan, küçük odalardan kurtulup; ferah bir "Amerikan Mutfak" (açık mutfak) veya devasa bir salon hayal ediyorsunuz. Ustanızı çağırıyorsunuz, eline balyozu alıyor ve "Şu aradaki duvarı yıkarsak burası saray gibi olur abi" diyor.
 
 İşte tam o an, binanızın ve ailenizin kaderini belirleyecek saniyelerdesiniz.
@@ -223,6 +225,7 @@ Fatih, Sarayağası, Karagümrük ve çevresindeki tadilat projelerinizde statik
   "fatih-banyo-tadilati-su-yalitimi": {
     title: "Fatih ve Sarayağası'nda Banyo Tadilatı ve Kesin Çözümlü Su Yalıtımı: Küçükler Yapı Dekorasyon Islak Hacim Rehberi",
     date: "12 Eylül 2026",
+    image: "/images/blog/blog-banyo-su-yalitimi.jpg",
     content: `Fatih, Sarayağası ve Hırka-i Şerif bölgelerinde ikamet eden eski bina sahipleri için en büyük kabus, gecenin bir yarısı alt kat komşusunun "Tavandan banyoma su damlıyor, tavanım sapsarı oldu!" diyerek kapıyı çalmasıdır. Kendi banyonuzda ise durum genellikle şöyledir: Kararan ve bir türlü beyazlamayan fayans araları (derzler), kapı kasalarının eteklerinden başlayarak çürüyüp şişmesi ve banyodan yayılan o ağır nem kokusu...
 
 Pek çok ev sahibi bu durumu çözmek için "Usta çağırıp derzleri yenileteyim" veya "Eski fayansın üstüne yeni fayans yapıştıralım, ucuza kapansın" diye düşünür. Ancak suyun şakası yoktur; bulduğu en ufak bir iğne deliğinden bile sızarak betonunuzu ve demirinizi içten içe çürütür.
@@ -324,6 +327,7 @@ Küçükler Yapı Dekorasyon olarak; arkamıza aldığımız teknik bilgi ve TSE
   "fatih-su-tesisati-demir-boru-yenileme": {
     title: "Fatih ve Sarayağası'nda Eski Binaların Su Tesisatı (Demir Boru) Yenileme Protokolü: Küçükler Yapı Dekorasyon Tesisat Rehberi",
     date: "12 Eylül 2026",
+    image: "/images/blog/blog-su-tesisati-demir-boru.jpg",
     content: `Fatih, Sarayağası, Karagümrük ve Hırka-i Şerif hattında 30-40 yaşını devirmiş bir dairede oturuyorsanız; musluktan ilk açtığınızda akan o sarı-kahverengi paslı suyu, duş alırken bir anda azalan su basıncını veya alt kat komşunuzun "Tavandan su damlıyor!" diyerek kapınıza dayanmasını muhtemelen tecrübe etmişsinizdir.
 
 Eski binalardaki galvaniz ve demir su boruları, artık yapısal ömrünü çoktan tamamlamıştır. Ancak bu tesisatları yenilemek, "Eskisini söküp yerine plastik boru takalım" denilecek kadar basit bir işlem değildir. Yanlış yapılan bir tesisat yenilemesi; kombinizin sürekli arıza vermesine, banyonuzda dayanılmaz bir lağım kokusuna ve fayanslarınızın altında sessizce büyüyen su kaçaklarına neden olur.
@@ -423,6 +427,7 @@ Küçükler Yapı Dekorasyon olarak; su kaçağı bulma, demir boru iptali, kalo
   "fatih-yigma-binalarda-mantolama-hatalari": {
     title: "Fatih'teki Eski ve Yığma Binalarda Isı Yalıtımı (Mantolama) Hataları: Küçükler Yapı Dekorasyon Doğru Yalıtım Rehberi",
     date: "12 Eylül 2026",
+    image: "/images/blog/blog-yigma-mantolama-hatalari.jpg",
     content: `Fatih, Sarayağası ve çevresindeki mahallelerde kış ayları geldiğinde birçok ev sahibinin ortak derdi başlar: Kombi son ayarda yanmasına rağmen ısınmayan odalar, buz gibi olan dış cephe duvarları ve her ay katlanarak gelen yüksek doğalgaz faturaları. Üstelik soğukla yetinmeyip, eşyaların arkasında veya tavan köşelerinde beliren kara küf lekeleri de cabasıdır.
 
 Bölgedeki binaların yaş ortalaması yüksek olduğu için (çoğu yığma, karma veya eski tip betonarme), standart bir "mantolama" işlemi bu evlerde işe yaramaz. Hatta yanlış yapılan bir yalıtım, evinizi adeta havasız bir naylon torbaya çevirerek terleme ve küf sorununu daha da artırabilir.
@@ -529,6 +534,7 @@ Küçükler Yapı Dekorasyon olarak; Fatih, Sarayağası ve çevresindeki komşu
   "fatih-sarayagasi-rutubet-yalitim-cozumleri": {
     title: "Fatih Sarayağası'nda Zemin ve Bodrum Kat Rutubet Çözümleri: Küçükler Yapı Dekorasyon Kalıcı Yalıtım Rehberi",
     date: "12 Eylül 2026",
+    image: "/images/blog/blog-rutubet-cozumleri.jpg",
     content: `İstanbul'un kalbi Tarihi Yarımada'da, özellikle Fatih Sarayağası, Sarıgüzel ve Hırka-i Şerif bölgelerinde mülk sahibiyseniz, zemin veya bodrum kat dairelerde yaşanan o ağır rutubet kokusunu ve sürekli kabaran duvar boyalarını çok iyi bilirsiniz. Yıllardır bitmeyen bu sorun, sadece evinizin görselliğini bozmakla kalmaz; çocuklarınızın solunum sağlığını tehdit eder ve en önemlisi binanızın taşıyıcı kolonlarını içten içe çürütür.
 
 Küçükler Yapı Dekorasyon olarak yıllardır Fatih sokaklarındaki yapıların dilinden anlıyoruz. Karşılaştığımız en büyük problem; ev sahiplerinin "rutubet önleyici" adı altında satılan ucuz boyalara veya duvarı alçıpanla kapatan geçici çözümlere binlerce lira harcayarak paralarını çöpe atmasıdır.

@@ -7,36 +7,42 @@ import blogSustainable from "@/assets/blog-sustainable.jpg";
 
 const blogPosts = [
   {
+    image: "/images/blog/blog-asma-tavan-gizli-isik.jpg",
     title: "Fatih ve Sarayağası Evlerinde Asma Tavan Çatlakları ve Gizli Işık Çökme Tehlikesi",
     excerpt: "Asma tavan çatlamalarının gerçek nedeni, ince sac profil ve plastik dübel hileleri: 5 adımlı çelik iskeletli, lazer kotlu Q4 yüzey kalitesinde çatlamaz tavan protokolü.",
     date: "12 Eylül 2026",
     slug: "fatih-asma-tavan-catlaklari-gizli-isik"
   },
   {
+    image: "/images/blog/blog-duvar-kirimi.jpg",
     title: "Fatih ve Sarayağası'nda Komple Ev Tadilatı ve Duvar Kırımı",
     excerpt: "Taşıyıcı duvar ile bölme duvar arasındaki hayati fark, yığma ve karkas bina gerçeği, yasal mevzuat ve duvar yıkmadan önce uygulanan 4 adımlı statik keşif protokolü.",
     date: "12 Eylül 2026",
     slug: "fatih-komple-ev-tadilati-duvar-kirimi"
   },
   {
+    image: "/images/blog/blog-banyo-su-yalitimi.jpg",
     title: "Fatih ve Sarayağası'nda Banyo Tadilatı ve Kesin Çözümlü Su Yalıtımı",
     excerpt: "Alt kata hiçbir damla su sızdırmayan banyo için 6 adımlı 'Sıfır Kaçak' protokolü: tam kırım, pah bandı, çift komponentli elastik izolasyon ve C2TE S1 esnek yapıştırıcı.",
     date: "12 Eylül 2026",
     slug: "fatih-banyo-tadilati-su-yalitimi"
   },
   {
+    image: "/images/blog/blog-su-tesisati-demir-boru.jpg",
     title: "Fatih ve Sarayağası'nda Eski Binaların Su Tesisatı (Demir Boru) Yenileme Protokolü",
     excerpt: "40 yıllık demir boruların paslanması, ölümcül usta hataları (folyosuz boru, kılıfsız döşeme) ve 5 adımlı TS EN standartlı tesisat protokolü.",
     date: "12 Eylül 2026",
     slug: "fatih-su-tesisati-demir-boru-yenileme"
   },
   {
+    image: "/images/blog/blog-yigma-mantolama-hatalari.jpg",
     title: "Fatih'teki Eski ve Yığma Binalarda Isı Yalıtımı (Mantolama) Hataları",
     excerpt: "Isı köprüleri, içten yalıtımda terleme tehlikesi ve yanlış strafor seçimi: eski ve yığma binalarda doğru yalıtımın 5 adımlı protokolü.",
     date: "12 Eylül 2026",
     slug: "fatih-yigma-binalarda-mantolama-hatalari"
   },
   {
+    image: "/images/blog/blog-rutubet-cozumleri.jpg",
     title: "Fatih Sarayağası'nda Zemin ve Bodrum Kat Rutubet Çözümleri",
     excerpt: "Kılcal nem, tuz kusması ve taşıyıcı sisteme zarar veren rutubete karşı kalıcı yalıtım protokolü: 6 adımda şeffaf çözüm rehberi.",
     date: "12 Eylül 2026",
